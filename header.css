@@ -1,0 +1,8 @@
+.header {
+    display: flex;
+    background: darkblue;
+}
+
+ul {
+    list-style-type: none;
+  }
