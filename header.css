@@ -1,8 +1,31 @@
 .header {
     display: flex;
-    background: darkblue;
+    font-family: 'Roboto';
+    background-color: #1f2937;
+    justify-content: center;
+    align-items: center;
+    gap: 600px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    padding: 4px 32px;
+    align-self: center;
+    font-weight: 900;
 }
 
 ul {
     list-style-type: none;
-  }
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 8px;
+}
+
+a {
+    font-size: 18px;
+    padding: 8px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
